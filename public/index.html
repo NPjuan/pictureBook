@@ -6,6 +6,35 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="icon" href="<%= BASE_URL %>favicon.ico">
     <title><%= htmlWebpackPlugin.options.title %></title>
+    <script src="//at.alicdn.com/t/font_1833218_q8v2o6ghgk.js"></script>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        letter-spacing: .05em;
+      }
+      /*修改滚动条样式*/
+      div::-webkit-scrollbar{
+        width:5px;
+        height:5px;
+        /**/
+      }
+      div::-webkit-scrollbar-track{
+        background: rgb(239, 239, 239);
+        border-radius:2px;
+      }
+      div::-webkit-scrollbar-thumb{
+        background: #bfbfbf;
+        border-radius:5px;
+      }
+      div::-webkit-scrollbar-thumb:hover{
+        background: #333;
+      }
+      div::-webkit-scrollbar-corner{
+        background: #179a16;
+      }
+    </style>
   </head>
   <body>
     <noscript>
