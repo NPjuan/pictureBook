@@ -18,7 +18,7 @@
     },
     computed: {
       imgSrc() {
-        return require(`../assets/images/gallery/gallery-${this.index}.png`)
+        return require(`../assets/images/index/gallery-${this.index}.png`)
       }
     }
   }
