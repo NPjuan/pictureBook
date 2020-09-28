@@ -48,7 +48,8 @@
     },
     computed: {
       imageSrc() {
-        return require(`../assets/images/gallery/gallery-${this.index}.png`)
+        // return require(`../assets/images/gallery/gallery-${this.index}.png`)
+        return require(`../assets/images/gallery/gallery-0.png`)
       },
       isReady() {
         if (this.ready) {
